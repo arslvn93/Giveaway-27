@@ -1,38 +1,37 @@
-
 // This file centralizes all editable content for the giveaway page
 
 // Prize section
 export const prizeImages = [
-  "https://images.unsplash.com/photo-1552767059-ce182ead6c1b?q=80&w=1000", // Main cheese board
-  "https://images.unsplash.com/photo-1452195100486-9cc805987862?q=80&w=500", // Cheese assortment
-  "https://images.unsplash.com/photo-1621939514649-280e2ee25f60?q=80&w=500", // Olives and cheese
+  "https://images.unsplash.com/photo-1556742517-fde6c2abbe11?ixid=M3w3MjQzNjF8MXwxfHNlYXJjaHwxfHxjYWZlfGVufDB8fHx8MTc0NjU0ODY4MHww&ixlib=rb-4.1.0",
+  "https://images.unsplash.com/photo-1509042239860-f550ce710b93?ixid=M3w3MjQzNjF8MHwxfHNlYXJjaHwyfHxjYWZlfGVufDB8fHx8MTc0NjU0ODY4MHww&ixlib=rb-4.1.0", 
+  "https://images.unsplash.com/photo-1554118811-1e0d58224f24?ixid=M3w3MjQzNjF8MHwxfHNlYXJjaHwzfHxjYWZlfGVufDB8fHx8MTc0NjU0ODY4MHww&ixlib=rb-4.1.0", 
 ];
 
 export const prizeContent = {
-  title: "Gourmet Cheese Board Gift Basket",
-  description: "This curated gift basket is perfect for an at-home charcuterie night. Featuring a handcrafted wooden cheese board, assortment of fine cheeses, olives, sea salt pretzels, chocolate bark, and a premium knife set—everything you need for a delicious evening with your loved ones.",
+  title: "Exclusive Dinner Experience at Spaccio",
+  description: "Enjoy a lavish dining evening at Spaccio with an exquisite meal for four. This exclusive giveaway, valued at $500, includes gourmet dishes and perfectly paired wines, all set in the elegant ambiance of Spaccio at 22 Sackville. It’s the perfect chance to create unforgettable memories with your loved ones.",
   features: [
-    "Assorted gourmet cheeses & olives - expertly selected and paired for rich, balanced flavor",
-    "Sea salt pretzels & chocolate bark - the perfect mix of crunchy, salty, and sweet indulgence",
-    "Handcrafted wooden cheese tray with premium knife set for effortless serving",
-    "Free delivery directly to your door in Vaughan",
-    "Perfect for a cozy night in with family and friends",
+    "Gourmet dinner for four at Spaccio",
+    "Exquisite wine pairings curated for a perfect match",
+    "Elegant dining ambiance on a sun-kissed patio",
+    "A culinary journey with unforgettable flavors",
+    "Ideal for a romantic dinner, family gathering, or double date",
   ],
-  value: "$175",
+  value: "$500",
 };
 
 // Header section
 export const headerContent = {
-  title: "Win a Curated Cheese Board Gift Basket!",
-  description: "Perfect for Vaughan families looking for a cozy night in! Enter for a chance to win our exclusive cheese board package valued at $175. No purchase necessary.",
+  title: "Win an Exclusive Dinner Experience at Spaccio!",
+  description: "Treat yourself to an evening of fine dining, exquisite wines, and unforgettable memories at Spaccio. Enter now for your chance to win a $500 dinner for four at one of the city's finest dining destinations.",
   ctaText: "Enter Now",
   heroImage: prizeImages[0],
-  secondaryImage: prizeImages[1], // Add secondary image for the header
+  secondaryImage: prizeImages[1],
 };
 
 // Navigation section
 export const navigationContent = {
-  title: "Cheese Board Giveaway",
+  title: "Spaccio Dinner Giveaway",
   links: [
     { name: 'Home', href: '#' },
     { name: 'Prize Details', href: '#prize' },
@@ -45,39 +44,39 @@ export const navigationContent = {
 // How to Enter section
 export const howToEnterContent = {
   title: "How to Enter",
-  description: "Getting started is easy! Follow these simple steps to enter our giveaway.",
+  description: "Entering our giveaway is simple and fun! Just fill out the form and answer a few quick questions about your culinary preferences to secure your chance to win this exclusive dining experience.",
   steps: [
     {
       icon: "Mail",
       title: "Fill Out the Form",
-      description: "Enter your email address and name in the form and submit it."
+      description: "Provide your name and email address to get started."
     },
     {
       icon: "Share2",
-      title: "Share with Friends",
-      description: "Share this giveaway on social media for extra entries."
+      title: "Answer a Quick Survey",
+      description: "Tell us about your dining preferences in a few fun questions."
     },
     {
       icon: "Users",
-      title: "Confirm Entry",
-      description: "Check your email to confirm your entry and you're all set!"
+      title: "Confirm Your Entry",
+      description: "Check your email for a confirmation to complete your entry."
     }
   ],
   benefits: [
     { 
       icon: "Clock", 
       title: "Quick & Easy", 
-      desc: "Takes less than a minute" 
+      desc: "Takes less than a minute to enter" 
     },
     { 
       icon: "Trophy", 
-      title: "Multiple Entries", 
-      desc: "Share for more chances" 
+      title: "Exclusive Prize", 
+      desc: "Win a $500 dinner experience at Spaccio" 
     },
     { 
       icon: "Gift", 
-      title: "Premium Prize", 
-      desc: "Valued at $175" 
+      title: "Unforgettable Experience", 
+      desc: "Indulge in gourmet dining and exquisite wines" 
     }
   ],
   formLabels: {
@@ -95,7 +94,7 @@ export const howToEnterContent = {
     title: "Entry Submitted!",
     description: "Check your email to confirm your entry."
   },
-  currentEntries: 482
+  currentEntries: 0,
 };
 
 // Rules section
@@ -105,37 +104,37 @@ export const rulesContent = {
   rules: [
     {
       question: "Who is eligible to enter?",
-      answer: "Anyone 18 years or older residing in the Vaughan area can enter this giveaway.",
+      answer: "Anyone 21 years or older is eligible to enter this giveaway."
     },
     {
       question: "How long does the giveaway run?",
-      answer: "This giveaway runs until February 2nd, 2025, as indicated by the countdown timer.",
+      answer: "The giveaway runs from May 12, 2025 until May 30, 2025."
     },
     {
       question: "How will the winner be selected?",
-      answer: "The winner will be selected randomly from all valid entries. We use a certified random selection tool to ensure fairness.",
+      answer: "The winner will be selected randomly from all valid entries using a certified random selection tool."
     },
     {
       question: "When and how will the winner be notified?",
-      answer: "The winner will be notified via email within 48 hours after the giveaway ends. They must respond within 72 hours to claim their prize.",
+      answer: "The winner will be notified via email within 48 hours after the giveaway ends and must respond within 72 hours to claim the prize."
     },
     {
       question: "How many times can I enter?",
-      answer: "Each person may enter once. Additional entries can be earned through sharing on social media (up to 3 additional entries).",
+      answer: "Each person may enter once. Additional survey completions are not eligible for extra entries."
     },
     {
       question: "Is my information secure?",
-      answer: "Yes, we take privacy seriously. Your information will only be used for this giveaway and will not be shared with third parties.",
-    },
+      answer: "Yes, your information will be kept confidential and used solely for this giveaway."
+    }
   ],
   imageUrl: "https://images.unsplash.com/photo-1607344645866-009c320b63e0?q=80&w=800",
   tipsForEntering: [
-    "Double-check your email address before submitting your entry",
-    "Share on social media for additional entry opportunities",
-    "Set a calendar reminder for the drawing date"
+    "Ensure your email address is correct before submitting your entry",
+    "Answer the survey honestly to secure your chance to win",
+    "Mark your calendar for the drawing on May 30, 2025"
   ],
-  importantNotice: "All winners will be contacted via the email provided during entry. Make sure to check your inbox (and spam folder) regularly after the giveaway ends.",
-  supportEmail: "support@giveaway.com",
+  importantNotice: "All winners will be contacted via the email provided during entry. Please check your inbox and spam folder regularly after the giveaway ends.",
+  supportEmail: "erica@ericareddy.com",
   termsText: "By entering, you agree to all rules and terms.",
   downloadRulesText: "Download Full Rules PDF"
 };
@@ -143,37 +142,37 @@ export const rulesContent = {
 // Contact section
 export const contactContent = {
   title: "Get In Touch",
-  email: "info@rapsgiveaway.com",
-  phone: "416-555-1234",
+  email: "erica@ericareddy.com",
+  phone: "",
   brokerage: {
-    name: "Toronto Sports Entertainment",
-    address: "123 Arena Blvd, Toronto"
+    name: "Erica Reddy-Choquette",
+    address: "Toronto, Canada"
   },
-  disclaimer: "This site is not intended to solicit buyers or sellers who are currently under contract.",
+  disclaimer: "This giveaway is organized and hosted by Erica Reddy-Choquette.",
   copyright: "Copyright 2025. All rights reserved",
   privacyPolicyText: "Privacy Policy"
 };
 
 // Footer section
 export const footerContent = {
-  aboutText: "The Raptors Giveaway specializes in offering exclusive prizes to our dedicated fans.",
-  email: "info@rapsgiveaway.com",
-  phone: "416-555-1234",
-  quickLinks: ["Home", "About", "Listings", "Contact", "Privacy Policy"],
+  aboutText: "Erica's Exclusive Giveaway brings you unforgettable dining experiences paired with exquisite wines.",
+  email: "erica@ericareddy.com",
+  phone: "",
+  quickLinks: ["Home", "Prize Details", "How to Enter", "Rules", "Contact"],
   newsletterText: "Subscribe to our newsletter for the latest updates on giveaways and exclusive offers.",
   brokerage: {
-    name: "Toronto Sports Entertainment",
-    address: "123 Arena Blvd, Toronto"
+    name: "Erica Reddy-Choquette",
+    address: "Toronto, Canada"
   },
-  disclaimer: "This site is not intended to solicit buyers or sellers who are currently under contract.",
+  disclaimer: "This giveaway is organized by Erica Reddy-Choquette.",
   copyright: "Copyright 2025. All rights reserved",
-  company: "The Sky Group Real Estate",
+  company: "Erica Reddy-Choquette",
   privacyPolicyText: "Privacy Policy"
 };
 
 // Countdown
 export const countdownContent = {
-  endDate: new Date("February 2, 2025") 
+  endDate: new Date("May 30, 2025")
 };
 
 // Color scheme configuration for the entire giveaway
